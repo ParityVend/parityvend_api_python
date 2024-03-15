@@ -1,0 +1,16 @@
+install_deps.bat
+env.bat
+run_tests.bat
+run_tests38.bat
+run_tests39.bat
+run_tests310.bat
+run_tests311.bat
+run_tests312.bat
+run_tests313.bat
+run_testspypy.bat
+
+__pycache__/
+*.py[cod]
+
+.pytest_cache
+.vscode
