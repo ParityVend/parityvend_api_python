@@ -33,6 +33,8 @@ For general documentation on the ParityVend API, please refer to [https://www.am
 
 The library is cross-platform. It is compatible with all Python versions 3.8 to 3.13 (including support for PyPy). The ParityVend API Python library uses `requests` for the synchronous handler and `aiohttp` for the asynchronous handler, as well as `cachetools` for providing memoization.
 
+[![ParityVend API Python Library - Getting Started](https://github.com/ParityVend/parityvend_api_python/blob/main/images/_get_started_cover_gh.png?raw=true)](https://www.ambeteco.com/ParityVend/)
+
 ## Getting Started
 
 To use the ParityVend API, you need to obtain an API key, also known as a `private_key`. ParityVend offers a generous free plan that allows you to get your API key without any cost.
