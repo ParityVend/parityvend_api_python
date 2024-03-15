@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools", "wheel", "requests>=2.31.0", "cachetools>=5.3.3", "aiohttp>=3.9.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parityvend_api"
+version = "1.0.0"
+keywords = ["parityvend", "purchasing power parity", "purchasing power", "location based pricing", "pricing optimization", "api library", "geographical pricing", "dynamic pricing"]
+description = "The official Python library for ParityVend API"
+readme = "README.md"
+license = {text = "Apache-2.0"} 
+authors = [
+{ name = "ParityVend", email = "help@ambeteco.com" },
+]
+requires-python = ">= 3.8"
+dependencies = [
+  "requests>=2.31.0",
+  "cachetools>=5.3.3", 
+  "aiohttp>=3.9.3"
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Typing :: Typed",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Operating System :: OS Independent",
+  "Framework :: AsyncIO",
+  "Framework :: Pytest",
+  "Framework :: aiohttp",
+  "Topic :: Internet",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Utilities",
+  "Topic :: Office/Business :: Financial",
+  "License :: OSI Approved :: Apache Software License"
+]
+
+[project.urls]
+Homepage = "https://github.com/ParityVend/parityvend_api_python/"
+Repository = "https://github.com/ParityVend/parityvend_api_python/"
+Documentation = "https://www.ambeteco.com/ParityVend/docs/index.html"
+Changelog = "https://raw.githubusercontent.com/ParityVend/parityvend_api_python/main/CHANGELOG.MD"

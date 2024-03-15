@@ -1,18 +1,10 @@
 from setuptools import setup
 
-from parityvend_api.config import VERSION
-
-long_description = """
-The official Python library for ParityVend API.
-
-parityvend_api prides itself on being the most reliable, accurate, and in-depth source of IP address data available anywhere.
-We process terabytes of data to produce our custom IP geolocation, company, carrier and IP type data sets.
-You can visit our developer docs at https://parityvend_api.io/developers.
-"""
+long_description = """The official Python client library for the ParityVend API. Add location-based pricing to your Python applications and take your business to a global level."""
 
 setup(
     name="parityvend_api",
-    version=VERSION,
+    version='1.0.0',
     description="Official Python library for ParityVend API",
     long_description=long_description,
     url="https://github.com/parityvend/api_python",
@@ -20,7 +12,7 @@ setup(
     author_email="help@ambeteco.com",
     license="Apache License 2.0",
     packages=["parityvend_api", "parityvend_api.cache"],
-    install_requires=["requests", "cachetools", "aiohttp<=4"],
+    install_requires=["requests>=2.31.0", "cachetools>=5.3.3", "aiohttp>=3.9.3"],
     include_package_data=True,
     zip_safe=False,
 )
