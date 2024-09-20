@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "parityvend_api"
-version = "1.0.0"
+version = "1.0.1"
 keywords = ["parityvend", "purchasing power parity", "purchasing power", "location based pricing", "pricing optimization", "api library", "geographical pricing", "dynamic pricing"]
 description = "The official Python library for ParityVend API"
 readme = "README.md"

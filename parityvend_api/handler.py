@@ -77,7 +77,7 @@ class ParityVendAPI:
         """
         return {
             "headers": {
-                "User-Agent": "Python ParityVend API Client/1.0.0 (+https://www.ambeteco.com/ParityVend/docs/index.html)"
+                "User-Agent": "Python ParityVend API Client/1.0.1 (+https://www.ambeteco.com/ParityVend/docs/index.html)"
             }
         }
 

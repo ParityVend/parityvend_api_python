@@ -4,7 +4,7 @@ long_description = """The official Python client library for the ParityVend API.
 
 setup(
     name="parityvend_api",
-    version='1.0.0',
+    version='1.0.1',
     description="Official Python library for ParityVend API",
     long_description=long_description,
     url="https://github.com/parityvend/api_python",
